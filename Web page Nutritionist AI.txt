@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личная страница Марины Герасимовой</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: beige;
+            color: green;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: green;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Добро пожаловать на личную страницу Марины Герасимовой</h1>
+</header>
+
+<nav>
+    <a href="#about">О себе</a>
+    <a href="#experience">Опыт работы</a>
+    <a href="#interests">Интересы</a>
+</nav>
+
+<section id="about">
+    <h2>О себе</h2>
+    <p>Привет! Меня зовут Марина Герасимова, и я нутрициолог. Моя страсть - помогать людям улучшить свое здоровье и качество жизни через правильное питание.</p>
+</section>
+
+<section id="experience">
+    <h2>Опыт работы</h2>
+    <p>Я имею более 10 лет опыта работы в области нутрициологии. Моя практика включает консультирование клиентов, разработку индивидуальных планов питания и проведение образовательных семинаров.</p>
+</section>
+
+<section id="interests">
+    <h2>Интересы</h2>
+    <p>В свободное время я увлекаюсь здоровым образом жизни, готовкой и изучением новых трендов в области нутрициологии. Также я люблю заниматься йогой и проводить время на свежем воздухе.</p>
+</section>
+
+<footer>
+    <p>Связаться со мной: example@email.com</p>
+</footer>
+
+</body>
+</html>
